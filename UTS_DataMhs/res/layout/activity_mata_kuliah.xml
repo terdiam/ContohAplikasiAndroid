@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <TextView android:text="Daftar Mata Kuliah"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtKodeMataKuliah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kode Mata Kuliah" />
+
+            <EditText
+                android:id="@+id/EdtKodeMataKuliah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+
+            
+            <TextView android:id="@+id/txtNamaMataKuliah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Mata Kuliah" />
+            
+            <EditText
+                android:id="@+id/edtNamaMataKuliah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+            
+            <TextView
+                android:id="@+id/txtSks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKS" />
+
+            <EditText
+                android:id="@+id/edtSks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+            
+            <TextView android:id="@+id/txtSemester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester" />
+            
+            <EditText
+                android:id="@+id/edtSemester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+            
+            <TextView android:id="@+id/txtNilai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nilai" />
+
+            <EditText
+                android:id="@+id/EdtNilai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+        
+    </LinearLayout>
+
+</ScrollView>

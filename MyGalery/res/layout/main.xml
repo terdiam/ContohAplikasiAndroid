@@ -1,0 +1,81 @@
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/layMain"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<Button
+    android:id="@+id/btnKeluar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rdoGroPilihan"
+    android:layout_toRightOf="@+id/btnPilih"
+    android:text="@string/keluar" />
+
+<Button
+    android:id="@+id/btnPilih"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/rdoGroPilihan"
+    android:text="Pilih" />
+
+<RadioGroup
+    android:id="@+id/rdoGroPilihan"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/txtMyGalery" >
+
+<RadioButton
+    android:id="@+id/rdoKomik"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="Komik"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoArtis"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Artis"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoHandphone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Handphone"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoKucing"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Kucing"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoMakananTradisional"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Makanan Tradisional"
+    android:textSize="12sp" />
+
+</RadioGroup>
+
+<TextView
+    android:id="@+id/txtMyGalery"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="My Galery" />
+
+</RelativeLayout>
+</ScrollView>

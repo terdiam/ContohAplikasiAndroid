@@ -1,0 +1,220 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget57"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/txtLastProses"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/darker_gray"
+    android:gravity="center"
+    android:textSize="15sp" />
+
+<TextView
+    android:id="@+id/txtMemory"
+    android:layout_width="258dp"
+    android:layout_height="20dp"
+    android:layout_above="@+id/txtHasil"
+    android:layout_alignLeft="@+id/txtHasil"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/background_dark"
+    android:gravity="right"
+    android:textColor="@android:color/white"
+    android:textSize="10sp" />
+
+<TextView
+    android:id="@+id/txtHasil"
+    android:layout_width="258dp"
+    android:layout_height="30dp"
+    android:layout_alignBottom="@+id/txtLastProses"
+    android:layout_toRightOf="@+id/txtLastProses"
+    android:background="@android:color/background_light"
+    android:gravity="right"
+    android:textSize="20sp" />
+
+<Button
+    android:id="@+id/bt8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt7"
+    android:layout_alignBottom="@+id/bt7"
+    android:layout_marginLeft="14dp"
+    android:layout_toRightOf="@+id/bt7"
+    android:text="8" />
+
+<Button
+    android:id="@+id/bt9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt8"
+    android:layout_alignBottom="@+id/bt8"
+    android:layout_marginLeft="15dp"
+    android:layout_toRightOf="@+id/bt8"
+    android:text="9" />
+
+<Button
+    android:id="@+id/bt4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/bt7"
+    android:layout_marginTop="14dp"
+    android:layout_toLeftOf="@+id/bt8"
+    android:text="4" />
+
+<Button
+    android:id="@+id/bt5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt4"
+    android:layout_alignBottom="@+id/bt4"
+    android:layout_alignLeft="@+id/bt8"
+    android:text="5" />
+
+<Button
+    android:id="@+id/bt6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt5"
+    android:layout_alignBottom="@+id/bt5"
+    android:layout_alignLeft="@+id/bt9"
+    android:text="6" />
+
+<Button
+    android:id="@+id/bt1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/bt4"
+    android:layout_marginTop="15dp"
+    android:layout_toLeftOf="@+id/bt8"
+    android:text="1" />
+
+<Button
+    android:id="@+id/bt2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt1"
+    android:layout_alignBottom="@+id/bt1"
+    android:layout_alignLeft="@+id/bt5"
+    android:text="2" />
+
+<Button
+    android:id="@+id/bt3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt2"
+    android:layout_alignBottom="@+id/bt2"
+    android:layout_alignLeft="@+id/bt6"
+    android:text="3" />
+
+<Button
+    android:id="@+id/bt0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/btC"
+    android:layout_alignBottom="@+id/btC"
+    android:layout_alignLeft="@+id/bt2"
+    android:text="0" />
+
+<Button
+    android:id="@+id/btTitik"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt0"
+    android:layout_alignBottom="@+id/bt0"
+    android:layout_alignLeft="@+id/bt3"
+    android:text="." />
+
+<Button
+    android:id="@+id/btKali"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt6"
+    android:layout_alignBottom="@+id/bt6"
+    android:layout_alignLeft="@+id/btBagi"
+    android:text="*" />
+
+<Button
+    android:id="@+id/btKurang"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt3"
+    android:layout_alignBottom="@+id/bt3"
+    android:layout_alignLeft="@+id/btKali"
+    android:text="-" />
+
+<Button
+    android:id="@+id/btTambah"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/btTitik"
+    android:layout_alignBottom="@+id/btTitik"
+    android:layout_alignLeft="@+id/btKurang"
+    android:text="+" />
+
+<Button
+    android:id="@+id/bt7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignRight="@+id/txtLastProses"
+    android:layout_below="@+id/txtLastProses"
+    android:layout_marginTop="28dp"
+    android:text="7" />
+
+<Button
+    android:id="@+id/btModulus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/bt1"
+    android:layout_alignLeft="@+id/btPersen"
+    android:text="Mod" />
+
+<Button
+    android:id="@+id/btKosong"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/btKurang"
+    android:layout_alignBottom="@+id/btKurang"
+    android:layout_alignLeft="@+id/btModulus" />
+
+<Button
+    android:id="@+id/btSamaDengan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/btTambah"
+    android:layout_alignBottom="@+id/btTambah"
+    android:layout_alignLeft="@+id/btKosong"
+    android:text="=" />
+
+<Button
+    android:id="@+id/btPersen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/btBagi"
+    android:layout_alignBottom="@+id/btBagi"
+    android:layout_marginLeft="15dp"
+    android:layout_toRightOf="@+id/btKali"
+    android:text="%" />
+
+<Button
+    android:id="@+id/btBagi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/bt9"
+    android:layout_alignBottom="@+id/bt9"
+    android:layout_marginLeft="15dp"
+    android:layout_toRightOf="@+id/bt9"
+    android:text="/" />
+
+<Button
+    android:id="@+id/btC"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/bt1"
+    android:layout_below="@+id/bt1"
+    android:layout_marginTop="14dp"
+    android:text="C" />
+
+</RelativeLayout>

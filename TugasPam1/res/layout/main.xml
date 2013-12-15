@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+	
+		<TextView
+			android:id="@+id/txtNrp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/nrp" />
+		
+		<EditText
+			android:id="@+id/edtNrp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:inputType="text" />
+		
+		<TextView
+			android:id="@+id/txtNama"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/nama" />
+		
+		<EditText
+			android:id="@+id/edtNama"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:inputType="text" />
+		
+		<TextView
+			android:id="@+id/txtAlamat"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/Alamat" />
+		
+		<EditText
+			android:id="@+id/edtAlamat"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:inputType="text" />
+		
+		<TextView
+			android:id="@+id/txtNilaiTugas"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/nTugas" />
+		
+		<EditText
+			android:id="@+id/edtNilaiTugas"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="4"
+			android:inputType="text" />
+		
+		<TextView
+			android:id="@+id/txtNilaiUts"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/nUts" />
+		
+		<EditText
+			android:id="@+id/edtNilaiUts"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:inputType="text" />
+		
+		<TextView
+			android:id="@+id/txtNilaiUas"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/nUas" />
+		
+		<EditText
+			android:id="@+id/edtNilaiUas"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:inputType="text" />
+		
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		
+		<Button
+			android:id="@+id/btnProses"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnProses"
+			android:layout_alignParentBottom="true"
+			android:layout_toRightOf="@+id/btnExit" />
+		
+		<Button
+			android:id="@+id/btnExit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnExit"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true" />
+		
+		</RelativeLayout>
+		
+		<TextView
+			android:id="@+id/txtPesan"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5sp"
+			android:text="" />		
+		
+	</LinearLayout>
+</ScrollView>

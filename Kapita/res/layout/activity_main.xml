@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget33"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="10px"
+	android:text="Penghitung Luas Persegi Panjang" />
+<RelativeLayout
+	android:id="@+id/widget34"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:id="@+id/widget35"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Panjang"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" />
+
+	<EditText
+	    android:id="@+id/edtPanjang"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_toRightOf="@+id/widget35"
+	    android:ems="10"
+	    android:text="Masukkan Panjang"
+	    android:textSize="18sp" />
+
+</RelativeLayout>
+<RelativeLayout
+	android:id="@+id/widget37"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/widget38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Lebar" />
+
+    <EditText
+        android:id="@+id/edtLebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/widget38"
+        android:ems="10"
+        android:text="Masukkan Lebar"
+        android:textSize="18sp" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
+<RelativeLayout
+	android:id="@+id/widget42"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+<Button
+	android:id="@+id/btnHasil"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Hitung"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentLeft="true" />
+
+<Button
+    android:id="@+id/btnClear"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@+id/btnHasil"
+    android:text="Clear" />
+
+<Button
+    android:id="@+id/btnKeluar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@+id/btnClear"
+    android:text="Keluar" />
+
+</RelativeLayout>
+<TextView android:id="@+id/txtResult"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+</LinearLayout>

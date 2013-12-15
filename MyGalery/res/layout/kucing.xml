@@ -1,0 +1,81 @@
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/layKucing"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<Button
+    android:id="@+id/btnKucingBack"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rdoGroKucingPilihan"
+    android:layout_toRightOf="@+id/btnKucingLihat"
+    android:text="Back" />
+
+<Button
+    android:id="@+id/btnKucingLihat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/rdoGroKucingPilihan"
+    android:text="Lihat" />
+
+<RadioGroup
+    android:id="@+id/rdoGroKucingPilihan"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/txtKucingPilih" >
+
+<RadioButton
+    android:id="@+id/rdoKucingMaineCoon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="Maine Coon"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoKucingBirman"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Birman"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoKucingTurkishVan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Turkish Van"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoKucingAnggora"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Anggora"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoKucingPersia"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Persia"
+    android:textSize="12sp" />
+
+</RadioGroup>
+
+<TextView
+    android:id="@+id/txtKucingPilih"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="Silahkan Pilih" />
+
+</RelativeLayout>
+</ScrollView>

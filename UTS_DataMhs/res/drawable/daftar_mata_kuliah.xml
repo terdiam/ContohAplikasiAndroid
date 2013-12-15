@@ -1,0 +1,7 @@
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When selected -->
+    <item android:drawable="@drawable/daftar"
+          android:state_selected="true" />
+    <!-- When not selected-->
+    <item android:drawable="@drawable/daftar2" />
+</selector>

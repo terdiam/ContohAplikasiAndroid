@@ -1,0 +1,81 @@
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/layMakananTradisional"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<Button
+    android:id="@+id/btnMakananTradisionalBack"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rdoGroMakananTradisionalPilihan"
+    android:layout_toRightOf="@+id/btnMakananTradisionalLihat"
+    android:text="Back" />
+
+<Button
+    android:id="@+id/btnMakananTradisionalLihat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/rdoGroMakananTradisionalPilihan"
+    android:text="Lihat" />
+
+<RadioGroup
+    android:id="@+id/rdoGroMakananTradisionalPilihan"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/txtMakananTradisionalPilih" >
+
+<RadioButton
+    android:id="@+id/rdoMakananTradisionalBuburTinutuan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="Bubur Tinutuan"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoMakananTradisionalTempoyak"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tempoyak"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoMakananTradisionalIkanArsik"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ikan Arsik"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoMakananTradisionalSateAmbal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sate Ambal"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoMakananTradisionalHorokHorok"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Horok-horok"
+    android:textSize="12sp" />
+
+</RadioGroup>
+
+<TextView
+    android:id="@+id/txtMakananTradisionalPilih"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="Silahkan Pilih" />
+
+</RelativeLayout>
+</ScrollView>

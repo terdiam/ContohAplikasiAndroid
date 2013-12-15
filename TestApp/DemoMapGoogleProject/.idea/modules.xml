@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DemoMapGoogle/DemoMapGoogle.iml" filepath="$PROJECT_DIR$/DemoMapGoogle/DemoMapGoogle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoMapGoogleProject.iml" filepath="$PROJECT_DIR$/DemoMapGoogleProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoMapGoogle/libs/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/DemoMapGoogle/libs/google-play-services_lib/google-play-services_lib.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TugasPam1</string>
+    <string name="action_settings">Settings</string>
+    <string name="nrp">NRP:</string>
+    <string name="nama">Nama:</string>
+    <string name="Alamat">Alamat:</string>
+    <string name="nTugas">Nilai Tugas:</string>
+    <string name="nUts">Nilai UTS:</string>
+    <string name="nUas">Nilai UAS:</string>
+    <string name="btnProses">Proses</string>
+    <string name="btnExit">Exit</string>
+    
+</resources>

@@ -1,0 +1,169 @@
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+    
+    <RelativeLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#47bde6">
+    	
+        <TextView
+            android:id="@+id/txtGenre"
+            android:text="@string/txtGenre"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"/>
+        
+            <RadioGroup 
+	            android:id="@+id/rdoGroupGenre" 
+            	android:layout_toRightOf="@+id/txtGenre"
+            	android:layout_marginLeft="10sp"
+            	android:layout_alignParentTop="true"
+            	android:orientation="vertical" 
+				android:layout_width="wrap_content" 
+	 			android:layout_height="wrap_content">
+	
+	            <RadioButton
+	                android:id="@+id/rdoAction"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:checked="true"
+	                android:text="Action"
+	                android:textSize="10sp"
+	                android:textColor="@android:color/white"
+	                android:typeface="monospace">
+	            </RadioButton>
+	
+	            <RadioButton
+	                android:id="@+id/rdoComedy"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Comedy"
+	                android:textSize="10sp"
+	                android:textColor="@android:color/white"
+	                android:typeface="monospace">
+	            </RadioButton>
+	            
+	            <RadioButton
+	                android:id="@+id/rdoDrama"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Drama"
+	                android:textColor="@android:color/white"
+	                android:textSize="10sp"
+	                android:typeface="monospace">
+	            </RadioButton>
+	            
+			</RadioGroup>
+		
+        
+    </RelativeLayout>
+
+    <RelativeLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#47bde6">
+    	
+        <TextView
+            android:id="@+id/txtCountry"
+            android:text="@string/txtCountry"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"/>
+        
+            <RadioGroup 
+	            android:id="@+id/rdoGroupCountry" 
+            	android:layout_toRightOf="@+id/txtCountry"
+            	android:layout_alignParentTop="true"
+            	android:orientation="vertical" 
+				android:layout_width="wrap_content" 
+	 			android:layout_height="wrap_content">
+	
+	            <RadioButton
+	                android:id="@+id/rdoIndo"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:checked="true"
+	                android:text="Indonesia"
+	                android:textSize="10sp"
+	                android:textColor="@android:color/white"
+	                android:typeface="monospace">
+	            </RadioButton>
+	
+	            <RadioButton
+	                android:id="@+id/rdoMandarin"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Mandarin"
+	                android:textSize="10sp"
+	                android:textColor="@android:color/white"
+	                android:typeface="monospace">
+	            </RadioButton>
+	            
+	            <RadioButton
+	                android:id="@+id/rdoBarat"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Barat"
+	                android:textColor="@android:color/white"
+	                android:textSize="10sp"
+	                android:typeface="monospace">
+	            </RadioButton>
+	            
+			</RadioGroup>
+		
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/txtJudul"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+	<Spinner
+	    android:id="@+id/spinJudul"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true" />
+	
+    <RelativeLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10sp">
+        
+        <Button 
+            android:text="Detail"
+            android:id="@+id/btnDetail"
+            android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:id="@+id/btnKeluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btnDetail"
+            android:text="Keluar" />
+        
+    </RelativeLayout>
+    
+</LinearLayout>
+
+</ScrollView>

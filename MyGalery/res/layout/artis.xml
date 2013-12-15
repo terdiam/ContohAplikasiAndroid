@@ -1,0 +1,81 @@
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/layArtis"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<Button
+    android:id="@+id/btnArtisBack"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rdoGroArtisPilihan"
+    android:layout_toRightOf="@+id/btnArtisBaca"
+    android:text="Back" />
+
+<Button
+    android:id="@+id/btnArtisBaca"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/rdoGroArtisPilihan"
+    android:text="Lihat" />
+
+<RadioGroup
+    android:id="@+id/rdoGroArtisPilihan"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/txtArtisPilih" >
+
+<RadioButton
+    android:id="@+id/rdoArtisNinaZatulini"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="Nina Zatulini"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoArtisSandraDewi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sandra Dewi"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoArtisRevalinaSayuthiTemat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Revalina Sayuthi Temat"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoArtisAgnesMonica"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Agnes Monica"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoArtisTitiKamal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Titi Kamal"
+    android:textSize="12sp" />
+
+</RadioGroup>
+
+<TextView
+    android:id="@+id/txtArtisPilih"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="Silahkan Pilih" />
+
+</RelativeLayout>
+</ScrollView>

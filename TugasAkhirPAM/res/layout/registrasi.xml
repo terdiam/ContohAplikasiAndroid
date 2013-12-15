@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/login_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView android:id="@+id/register_root"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+            <LinearLayout android:gravity="top|center"
+                android:orientation="vertical"
+                android:id="@+id/register_main_group"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_weight="1.0">
+                <EditText android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="left|center" android:id="@+id/regisEdtEmail" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:hint="@string/regis_email" android:singleLine="true" android:inputType="textNoSuggestions|textEmailAddress" android:layout_marginTop="10.0dip" />
+                <EditText android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="left|center" android:id="@+id/regisEdtPassword" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:hint="@string/login_password" android:singleLine="true" android:inputType="textPassword" />
+                <EditText android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="left|center" android:id="@+id/regisEdtNama" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:hint="@string/regis_nama" android:singleLine="true" android:inputType="textNoSuggestions|textPersonName" />
+                <EditText android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="left|top" android:id="@+id/regisEdtAlamat" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:hint="@string/regis_alamat" android:singleLine="true" android:inputType="textNoSuggestions|textLongMessage|textMultiLine" android:imeOptions="actionGo" />
+                <EditText android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="left|center" android:id="@+id/regisEdtTelp" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:hint="@string/regis_telp" android:singleLine="true" android:inputType="textNoSuggestions|phone" android:imeOptions="actionGo" />
+                <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/regisBtnRegister" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_button_register" android:background="@drawable/login_button_background" android:layout_marginTop="10.0dip" />
+                <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/regisBtnBack" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_back" android:background="@drawable/login_button_background" android:layout_marginTop="10.0dip" />
+                </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

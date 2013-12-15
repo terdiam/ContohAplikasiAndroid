@@ -1,0 +1,146 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TugasPam" >
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama" />
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNama"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textNRP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editNama"
+        android:text="@string/nrp" />
+
+    <EditText
+        android:id="@+id/editNRP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNRP"
+        android:ems="10" android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editNRP"
+        android:text="@string/alamat" />
+
+    <EditText
+        android:id="@+id/editAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAlamat"
+        android:ems="10" android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+    
+        <TextView
+        android:id="@+id/textTugas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editAlamat"
+        android:text="Nilai Tugas" />
+
+    <EditText
+        android:id="@+id/editTugas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTugas"
+        android:ems="10" android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+    
+        <TextView
+        android:id="@+id/textUts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTugas"
+        android:text="Nilai UTS" />
+
+    <EditText
+        android:id="@+id/editUts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textUts"
+        android:ems="10" android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+
+        <TextView
+        android:id="@+id/textUas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editNama"
+        android:layout_below="@+id/editUts"
+        android:text="Nilai UAS" />
+
+    <EditText
+        android:id="@+id/editUas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textNRP"
+        android:layout_below="@+id/textUas"
+        android:ems="10" android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editUas"
+        android:text="" />
+    
+    <ImageButton
+        android:src="@drawable/process"
+        android:id="@+id/buttonSimpan"
+        android:layout_alignLeft="@+id/editNRP"
+        android:layout_below="@+id/textHasil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Simpan" />
+
+    <ImageButton
+        android:id="@+id/buttonExit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textHasil"
+        android:layout_alignBottom="@+id/buttonSimpan"
+        android:layout_toRightOf="@+id/buttonSimpan"
+        android:text="Keluar" />
+    
+</RelativeLayout>
+</ScrollView>

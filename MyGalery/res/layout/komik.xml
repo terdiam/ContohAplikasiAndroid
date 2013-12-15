@@ -1,0 +1,81 @@
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/layKomik"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<Button
+    android:id="@+id/btnKomikBack"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rdoGroKomikPilihan"
+    android:layout_toRightOf="@+id/btnKomikBaca"
+    android:text="Back" />
+
+<Button
+    android:id="@+id/btnKomikBaca"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/rdoGroKomikPilihan"
+    android:text="Lihat" />
+
+<RadioGroup
+    android:id="@+id/rdoGroKomikPilihan"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/txtKomikPilih" >
+
+<RadioButton
+    android:id="@+id/rdoKomikNaruto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="Naruto"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoKomikOnePiece"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="One Piece"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoKomikBleach"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Bleach"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoKomikBeelzebub"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Beelzebub"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoKomikFairyTail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Fairy Tail"
+    android:textSize="12sp" />
+
+</RadioGroup>
+
+<TextView
+    android:id="@+id/txtKomikPilih"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="Silahkan Pilih" />
+
+</RelativeLayout>
+</ScrollView>

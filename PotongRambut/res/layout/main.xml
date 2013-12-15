@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/JK"
+    android:layout_marginTop="10sp" />
+
+<RadioGroup android:id="@+id/rdoGroup1" android:orientation="vertical" 
+	android:layout_width="wrap_content" android:layout_height="wrap_content" >
+<RadioButton android:text="Laki-Laki" android:id="@+id/rdoJK1" android:checked="true"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+<RadioButton android:text="Perempuan" android:id="@+id/rdoJK2" 
+	android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+</RadioGroup>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/US" />
+
+<RadioGroup android:id="@+id/rdoGroup2" android:orientation="vertical" 
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+<RadioButton android:text="Anak-anak" android:id="@+id/rdoUS1" android:checked="true"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+<RadioButton android:text="Remaja" android:id="@+id/rdoUS2" 
+	android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+<RadioButton android:text="Orang Tua" android:id="@+id/rdoUS3" 
+	android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+</RadioGroup>
+
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<Button
+    android:id="@+id/btnPilih"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Pilih" />
+
+<Button
+    android:id="@+id/btnKeluar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="68dp"
+    android:text="Keluar" />
+    
+</RelativeLayout>
+
+
+<TextView android:text="" android:id="@+id/txtTampil" 
+	android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+    
+</LinearLayout>

@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="hello"
+    />
+<Spinner android:id="@+id/spinNegara" android:layout_width="match_parent" 
+	android:layout_height="wrap_content"> </Spinner>
+<TextView android:text="Negara : " android:id="@+id/txtTampil" 
+	android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>

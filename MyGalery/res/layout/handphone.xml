@@ -1,0 +1,81 @@
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/layHandphone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<Button
+    android:id="@+id/btnHandphoneBack"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rdoGroHandphonePilihan"
+    android:layout_toRightOf="@+id/btnHandphoneBaca"
+    android:text="Back" />
+
+<Button
+    android:id="@+id/btnHandphoneBaca"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/rdoGroHandphonePilihan"
+    android:text="Lihat" />
+
+<RadioGroup
+    android:id="@+id/rdoGroHandphonePilihan"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/txtHandphonePilih" >
+
+<RadioButton
+    android:id="@+id/rdoHandphoneSamsung"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="Samsung"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoHandphoneBlackBerry"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="BlackBerry"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoHandphoneNokia"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nokia"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoHandphoneSonyEricsson"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sony Ericsson"
+    android:textSize="12sp" />
+
+<RadioButton
+    android:id="@+id/rdoHandphoneZTE"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ZTE"
+    android:textSize="12sp" />
+
+</RadioGroup>
+
+<TextView
+    android:id="@+id/txtHandphonePilih"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="Silahkan Pilih" />
+
+</RelativeLayout>
+</ScrollView>

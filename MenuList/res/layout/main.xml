@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbarStyle="insideInset"
+android:fadeScrollbars="true"
+android:scrollbarSize="10dip"
+android:fitsSystemWindows="true" >
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/tt"  >
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Text one.."
+android:textColor="#000000"
+android:background="#ffffff"
+android:textSize="20dip"/>
+<HorizontalScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbarStyle="insideInset"
+android:fadeScrollbars="true"
+android:scrollbarSize="10dip"
+android:fitsSystemWindows="true"   >
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="horizontal" >
+<ImageView
+android:src="@drawable/abc"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/fgj"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/ggcgh"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/thhh"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center" />
+<ImageView
+android:src="@drawable/fhg"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center" />
+<ImageView
+android:src="@drawable/jgeraej"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center" />
+<ImageView
+android:src="@drawable/jhdfdjh"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+</LinearLayout>
+</HorizontalScrollView>
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#ffffff"
+android:textColor="#000000"
+android:text="Text two.."
+android:textSize="20dip"/>
+<HorizontalScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbarStyle="insideInset"
+android:fadeScrollbars="true"
+android:scrollbarSize="10dip"
+android:fitsSystemWindows="true" >
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="horizontal">
+<ImageView
+android:src="@drawable/thhh"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/abc"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/fgj"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/hghhgh"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center" />
+<ImageView
+android:src="@drawable/jgeraej"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/fhg"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+<ImageView
+android:src="@drawable/thhh"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+</LinearLayout>
+</HorizontalScrollView>
+</LinearLayout>
+</ScrollView>

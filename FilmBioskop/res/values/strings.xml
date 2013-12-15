@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Film Bioskop</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="txtGenre">Genre:</string>
+    <string name="txtJudul">Judul:</string>
+    <string name="txtInfo">Info:</string>
+    <string name="txtSutradara">Sutradara:</string>
+    <string name="txtProduser">Produser:</string>
+    <string name="txtProduksi">Produksi:</string>
+    <string name="txtCountry">Country:</string>
+	
+</resources>

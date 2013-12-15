@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#efefef" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <ImageView android:id="@+id/logowakfu" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/wakfu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+    
+	<TextView android:textSize="13.0sp"
+	    android:layout_marginTop="10.0sp"
+	    android:id="@+id/namaAplikasi"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text=" Wakfu, The strategic MMORPG"
+	    android:layout_toRightOf="@id/logowakfu" 
+	    android:layout_alignParentTop="true" />
+
+    <TextView android:textSize="10.0sp"
+        android:id="@+id/namaAPlikasi2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="with a real environmental and political system"
+        android:layout_toRightOf="@id/logowakfu"
+        android:layout_below="@id/namaAplikasi"
+        android:layout_alignParentTop="false" />
+
+	 <ScrollView android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:layout_below="@id/logowakfu">
+	     
+	     <HorizontalScrollView android:id="@+id/widgetHV1"
+	         android:background="@android:color/transparent" 
+	         android:layout_width="fill_parent" 
+	         android:layout_height="fill_parent" 
+	         android:layout_below="@id/logowakfu">
+	         
+	          <RelativeLayout android:layout_gravity="left"
+	              android:id="@+id/widgetRL3"
+	              android:background="@android:color/transparent" 
+	              android:layout_width="fill_parent" 
+	              android:layout_height="fill_parent" 
+	              android:layout_below="@id/widgetHV1">
+	              
+	              <ImageButton android:id="@+id/cra" 
+	                  android:background="@android:color/transparent" 
+	                  android:paddingLeft="15.0dip" 
+	                  android:paddingTop="10.0dip" 
+	                  android:layout_width="wrap_content" 
+	                  android:layout_height="wrap_content" 
+	                  android:src="@drawable/cra" 
+	                  android:adjustViewBounds="true" 
+	                  android:layout_alignParentLeft="true" 
+	                  android:layout_alignParentTop="true" />
+	              
+	              <ImageButton android:id="@+id/enutrof" 
+	                  android:background="@android:color/transparent" 
+	                  android:paddingLeft="15.0dip" 
+	                  android:paddingTop="10.0dip" 
+	                  android:layout_width="wrap_content" 
+	                  android:layout_height="wrap_content" 
+	                  android:src="@drawable/enutrof" 
+	                  android:adjustViewBounds="true" 
+	                  android:layout_toRightOf="@id/cra" 
+	                  android:layout_alignParentTop="true" />
+	              
+	               <ImageButton android:id="@+id/osamodas" 
+	                   android:background="@android:color/transparent" 
+	                   android:paddingLeft="15.0dip" 
+	                   android:paddingTop="10.0dip" 
+	                   android:layout_width="wrap_content" 
+	                   android:layout_height="wrap_content" 
+	                   android:src="@drawable/osamodas" 
+	                   android:adjustViewBounds="true" 
+	                   android:layout_toRightOf="@id/enutrof" 
+	                   android:layout_alignParentTop="true" />
+
+	                <ImageButton android:id="@+id/pandawa" 
+	                    android:background="@android:color/transparent" 
+	                    android:paddingLeft="15.0dip" 
+	                    android:paddingTop="10.0dip" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/pandawa" 
+	                    android:adjustViewBounds="true" 
+	                    android:layout_toRightOf="@id/osamodas" 
+	                    android:layout_alignParentTop="true" />
+	                
+	                <ImageButton android:id="@+id/sadida" 
+	                    android:background="@android:color/transparent" 
+	                    android:paddingLeft="15.0dip" 
+	                    android:paddingTop="10.0dip" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/sadida" 
+	                    android:adjustViewBounds="true" 
+	                    android:layout_toRightOf="@id/pandawa" 
+	                    android:layout_alignParentTop="true" />
+	                
+	                <ImageButton android:id="@+id/scrier" 
+	                    android:background="@android:color/transparent" 
+	                    android:paddingLeft="15.0dip" 
+	                    android:paddingTop="10.0dip" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/scrier" 
+	                    android:adjustViewBounds="true" 
+	                    android:layout_below="@id/cra" />
+
+	                <ImageButton android:id="@+id/xelor" 
+	                    android:background="@android:color/transparent" 
+	                    android:paddingLeft="15.0dip" 
+	                    android:paddingTop="10.0dip" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/xelor" 
+	                    android:adjustViewBounds="true" 
+	                    android:layout_toRightOf="@id/scrier"
+	                    android:layout_below="@id/cra" />
+	                
+	                	                	              
+	          </RelativeLayout>
+	         
+	     </HorizontalScrollView>
+	     
+	 </ScrollView>
+
+ <LinearLayout android:gravity="center_horizontal"
+     android:orientation="horizontal" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_alignParentBottom="true">
+        <ImageButton android:id="@+id/btnExit" 
+            android:background="@drawable/selector_exit" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+	 	
+</RelativeLayout>

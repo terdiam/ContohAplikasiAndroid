@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_my_location"
+        android:icon="@drawable/mylocation"
+        android:title="@string/my_location" />
+    <item android:id="@+id/main_history"
+        android:icon="@drawable/history"
+        android:title="History" />
+    <item android:id="@+id/main_help"
+        android:icon="@drawable/help"
+        android:title="Help" />
+    <item android:id="@+id/main_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+</menu>
